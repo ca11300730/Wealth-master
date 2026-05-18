@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.noober.background.view.BLTextView
+        android:id="@id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/sp_15"
+        app:bl_corners_radius="@dimen/dp_4"
+        android:paddingEnd="@dimen/dp_17"
+        android:paddingStart="@dimen/dp_17"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingBottom="@dimen/dp_5"
+        app:bl_selected_textColor="@color/black"
+        app:bl_unSelected_textColor="#666666"
+        app:bl_selected_solid_color="@color/common_color"
+        app:bl_unSelected_solid_color="#EEEEEE"
+        tools:text="全部" />
+
+</FrameLayout>

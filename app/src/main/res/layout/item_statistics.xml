@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13"
+            android:id="@+id/value0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            tools:text="年份" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13"
+            android:id="@+id/value1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="start"
+            tools:text="年收入" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13"
+            android:id="@+id/value2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            tools:text="年支出" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13"
+            android:id="@+id/value3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            tools:text="年结余" />
+
+        <View
+            android:id="@+id/value4"
+            android:layout_width="@dimen/dp_10"
+            android:layout_height="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:background="@mipmap/right_arrow"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="@dimen/dp_12"
+        android:background="@color/gray_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_7"/>
+
+
+</LinearLayout>

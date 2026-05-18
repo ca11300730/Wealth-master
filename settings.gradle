@@ -1,0 +1,32 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter/' }
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        // 强制降级通道
+        maven {
+            url 'https://jitpack.io'
+            //allowInsecureProtocol = true
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter/' }
+        google()
+        mavenCentral()
+        // 强制降级通道
+        maven {
+            url 'https://jitpack.io'
+            //allowInsecureProtocol = true
+        }
+    }
+}
+rootProject.name = "Wealth"
+include ':app'

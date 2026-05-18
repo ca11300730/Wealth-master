@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/tab_main_analyze"
+        android:enabled="true"
+        android:icon="@drawable/main_bottom_home_selector"
+        android:title="统计"
+        />
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/tab_main_product"
+        android:enabled="true"
+        android:icon="@drawable/main_bottom_product_selector"
+        android:title="理财"
+        />
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/tab_main_community"
+        android:enabled="true"
+        android:icon="@drawable/main_bottom_communit_selector"
+        android:title="社区"
+        />
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/tab_main_user"
+        android:enabled="true"
+        android:icon="@drawable/main_bottom_user_selector"
+        android:title="我的"
+        />
+
+
+</menu>

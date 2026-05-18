@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <FrameLayout
+            android:background="#F3F6F3"
+            android:layout_marginStart="@dimen/dp_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <com.android.wealth.view.CircleImgView
+                android:id="@+id/icon0"
+                android:layout_width="@dimen/dp_35"
+                android:layout_height="@dimen/dp_35"
+                tools:src="@drawable/category_e_entertainmente_fill" />
+
+            <com.android.wealth.view.CircleImgView
+                android:id="@+id/icon1"
+                android:layout_width="@dimen/dp_35"
+                android:layout_height="@dimen/dp_35"
+                tools:src="@drawable/category_e_entertainmente_stroke" />
+
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_marginStart="@dimen/dp_10"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="工资" />
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_marginEnd="@dimen/dp_15"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工资" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/gray_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_7"/>
+
+
+</LinearLayout>

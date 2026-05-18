@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RecordActivity">
+
+    <FrameLayout
+        android:background="@color/common_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_gravity="center"
+            android:id="@+id/tabLayout"
+            app:tabGravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_45"
+            app:tabIndicatorColor="@color/black"
+            app:tabIndicatorFullWidth="false"
+            app:tabIndicatorHeight="@dimen/dp_2"
+            app:tabMode="scrollable"
+            app:tabRippleColor="@android:color/transparent"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextAppearance="@style/Sp16TabLayoutTextStyle"
+            app:tabTextColor="@color/black" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_marginEnd="@dimen/dp_15"
+            android:layout_gravity="end|center_vertical"
+            android:textSize="@dimen/sp_15"
+            android:textColor="#333333"
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </FrameLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+
+</LinearLayout>
